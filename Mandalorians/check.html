@@ -4,13 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
 		body{
 			background-color: paleturquoise;
+			background-image: url(https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FsbXxlbnwwfHwwfHw%3D&w=1000&q=80);
+			background-repeat: repeat;
+			background-position:top left;		
 		}
 		h1{
 			color: darkblue;
 			font-family: fantasy;
-			font-style: italic;
 			font-weight: bold;
 			font-size: 40px;
 			text-align: center;
@@ -40,9 +45,14 @@
 		div{
 			font-weight: bolder;
 			font-size: 22px;
-			background-color: beige;
-			font-family: cursive;
-			width: 800px;
+			font-family: Times New Roman;
+			border-style: solid;
+			border-width: 1px;
+			padding: 5px;
+			margin: 1%;
+			width: 60%;
+			background-image: url(https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg);
+			background-repeat: repeat-x;
 		}
 		li.ok{
 			background-color: limegreen;
@@ -51,13 +61,22 @@
 			border-style: solid;
 			border-color :royalblue ;
 			font-style: italic;
-			font-size: 21px;
+			font-size: 110%;
 		}
 		footer{
 			font-family: monospace;
 			font-style: italic;
-			font-size: 20px;
+			font-size: 150%;
 			font-weight: bold;
+			position: relative;
+			top: 200px;
+		}
+		section{
+			float: right;
+			position: relative;
+			bottom: 270px;
+			right: 30px;
+			width: 30%;
 		}
 	</style>
 	<h1>BIOGRAPHY</h1>
@@ -66,16 +85,16 @@
 	<p>I am Aranya Ghosh. This is one of the first websites created by me.</p>
 	</header>
 </head>
-<body>
-	<div>I studied in St. Vincents' High and Technical School Asansol from kindergarten to the 10th grade.</div>
-	<div>Then I completed my high school from St. Patricks' Higher Secondary School Asansol.</div>
-	<div>Presently I am a student of Asansol Engineeering College.</div>
+<body>	
+	<div>I studied in St. Vincents' High and Technical School Asansol from kindergarten to the 10th grade.<br>
+	Then I completed my high school from St. Patricks' Higher Secondary School Asansol.<br>
+	Presently I am a student of Asansol Engineeering College.</div>
 	<ul>
-    <li>I am an advanced JAVA programmer</li>
-    <li class="ok">I am an intermediate Python programmer</li>
-    <li class="ok">I am a beginner C programmer</li>
+   		<li>I am an advanced JAVA programmer</li>
+   		<li class="ok">I am an intermediate Python programmer</li>
+   		<li class="ok">I am a beginner C programmer</li>
 	</ul>
-	<section>
+  	<section>
 		<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" height="400" width="400">	
 	</section>
 </body>
